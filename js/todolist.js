@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     logoutBtn = document.getElementById('logoutBtn');
     if (logoutBtn) {
         logoutBtn.addEventListener('click', function() {
-            window.location.href = '../login.html';
+            window.location.href = '../index.html';
         });
     }
 });
